@@ -26,4 +26,22 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  border: 1px solid lightgrey;
+  overflow: hidden;
+  position: relative;
+  padding: 150px 150px
+}
+
+.film-poster {
+  position: absolute;
+  width: 25%;
+  bottom: 1px;
+  left: 1px;
+}
+
+.film-details {
+  position: absolute;
+  bottom: 7px;
+  padding: 0px 30px;
+  bottom: 50px;
 }
