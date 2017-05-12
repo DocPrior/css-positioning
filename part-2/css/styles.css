@@ -35,15 +35,14 @@ figure {
 .film-poster {
   position: absolute;
   width: 25%;
-  bottom: 1px;
-  left: 1px;
+  bottom: 18px;
+  left: 20px;
 }
 
 .film-details {
   position: absolute;
-  bottom: 7px;
-  padding: 0px 30px;
-  bottom: 50px;
+  padding: 0px 50px;
+  bottom: 30px;
 }
 
 .action-watch-later {
@@ -51,4 +50,10 @@ figure {
   top: 8px;
   color: red;
   right: 8px;
+}
+
+.action-like {
+  position: absolute;
+  right: 10px;
+  color: red;
 }
